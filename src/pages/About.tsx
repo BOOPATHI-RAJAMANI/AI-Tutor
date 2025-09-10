@@ -31,7 +31,7 @@ const About = () => {
       new (window as any).YT.Player('player', {
         height: '400',
         width: '100%',
-        videoId: 'D6Oh6DI0czg',
+        videoId: 'xzLfm7e3eCE',
         events: {
           onReady: onPlayerReady,
         },
