@@ -48,7 +48,7 @@ const Header = () => {
   const navigationItems = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'About Us', href: '/about', icon: Building },
-    { name: 'AI Tutor', href: 'http://localhost:8080/', icon: Bot },
+    { name: 'AI Tutor', href: 'https://ai-tutor-7mnjvqz2l-ahashs-projects.vercel.app/', icon: Bot },
     { name: 'Resources', href: '/resources', icon: FileText },
     { name: 'Contact', href: '/contact', icon: Phone }
   ];
