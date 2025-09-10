@@ -149,10 +149,12 @@ const Hero = () => {
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
                   </Button>
+                  <a href="/about-us'>
                   <Button variant="outline" size="lg" className="btn-outline-premium">
                     <Play className="mr-2 h-5 w-5" />
                     Watch Demo
                   </Button>
+                </a>
                 </div>
 
                 {/* Stats */}
