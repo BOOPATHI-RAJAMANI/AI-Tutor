@@ -290,6 +290,31 @@ const About = () => {
           </div>
         </motion.div>
       </div>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          var tag = document.createElement('script');
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+          var player;
+          function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+              height: '400',
+              width: '100%',
+              videoId: 'D6Oh6DI0czg',
+              events: {
+                'onReady': onPlayerReady
+              }
+            });
+          }
+
+          function onPlayerReady(event) {
+            event.target.playVideo();
+            event.target.setPlaybackQuality('hd1080');
+          }
+        `
+      }} />
     </div>
   );
 };
