@@ -152,7 +152,7 @@ const Hero = () => {
                   
                   <Button variant="outline" size="lg" className="btn-outline-premium">
                     <Play className="mr-2 h-5 w-5" />
-                     <Link to="/contact">
+                     <Link to="/about">
                     Watch Deme
                  </Link>
                   </Button>
