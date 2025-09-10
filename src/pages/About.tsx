@@ -162,16 +162,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <iframe
-              width="100%"
-              height="400"
-              src="https://www.youtube.com/embed/D6Oh6DI0czg?vq=hd1080"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg"
-            ></iframe>
+            <div id="player" className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg"></div>
           </motion.div>
           <div className="text-center mb-8">
             <Award className="h-12 w-12 text-primary mx-auto mb-4" />
