@@ -165,7 +165,7 @@ const About = () => {
             <iframe
               width="100%"
               height="400"
-              src="https://www.youtube.com/embed/D6Oh6DI0czg"
+              src="https://www.youtube.com/embed/D6Oh6DI0czg?vq=hd1080"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
